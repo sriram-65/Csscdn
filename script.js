@@ -8,4 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         document.body.classList.remove('dark-mode');
     }
+
+    // Remove the 'spinner' class after 2 seconds using querySelector
+    const spinnerElement = document.querySelector('.spinner');
+    if (spinnerElement) {
+        setTimeout(() => {
+            spinnerElement.classList.remove('spinner');
+        }, 2000);
+    }
 });
