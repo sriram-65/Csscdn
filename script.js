@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
             spinnerElement.classList.remove('spinner');
         }, 2000);
     }
-});
-
-let popup = document.querySelector(".pop-up")
-   window.addEventListener("load" , function(){
+   let popup = document.querySelector(".pop-up")
+   
     setTimeout(function(){
       popup.classList.remove("pop-up")
     },3000)
-   })
+
+});
+
+
