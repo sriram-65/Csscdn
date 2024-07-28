@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
 let popup = document.querySelector(".pop-up")
    window.addEventListener("load" , function(){
     setTimeout(function(){
-      popup.classList.remove()
+      popup.classList.remove("pop-up")
     },3000)
    })
