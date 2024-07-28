@@ -17,3 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 2000);
     }
 });
+
+let popup = document.querySelector(".pop-up")
+   window.addEventListener("load" , function(){
+    setTimeout(function(){
+      popup.classList.remove()
+    },3000)
+   })
